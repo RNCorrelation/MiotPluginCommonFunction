@@ -1,0 +1,12 @@
+{
+  "name": "LHCommonFunction",
+  "version": "0.0.1",
+  "scripts": {
+    "pre-lint": "node DevTools/Eslint/EslintCheck.js"
+  },
+  "pre-commit": [
+    "pre-lint"
+  ],
+  "dependencies": {},
+  "devDependencies": {}
+}
